@@ -119,7 +119,7 @@ ToParser method returns a singleton list of the given value itself.
 ToParser method is monadic Unit function.
 
 ```csharp
-var res1 = GeneralizedMonadicParser.ToParser(GeneralizedMonadicParser765);
+var res1 = GeneralizedMonadicParser.ToParser(765);
 
 //res1.Run("");   // Match, value: [765]
 ```
